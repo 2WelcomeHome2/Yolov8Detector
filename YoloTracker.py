@@ -83,7 +83,6 @@ class PeopleDetector():
                 x1, y1, x2, y2, obj_id, score, class_id = r
                 if int(class_id) == 0: self._create_detection_info(int(obj_id),int(x1), int(y1), int(x2), int(y2), int(class_id), score, result)
 
-
     def Video(self):
         self.create_HMatrix()
         while True:
